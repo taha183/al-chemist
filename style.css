@@ -1,0 +1,25 @@
+#fty{
+    border: 1px solid brown;
+    border-radius: 25px;
+    background-color: brown;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 570px;
+}
+#p{
+    background-color: black;
+    color: white;
+    /* margin-top: -10px; */
+    font-size: large;
+}
+#gif1{
+    background-color: black;
+}
+#div1{
+    background-color: black;
+    margin: -10px;
+}
+body{
+    background-color: red;
+}
