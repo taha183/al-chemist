@@ -1,3 +1,4 @@
+
 #fty{
     border: 1px solid brown;
     border-radius: 25px;
@@ -5,12 +6,12 @@
     padding: 10px;
     text-decoration: none;
     color: white;
-    margin: 500px;
+    margin-left: 400px;
 }
 #p{
     background-color: black;
     color: white;
-    /* margin-top: -10px; */
+     /* margin-top: -10px;  */
     font-size: large;
 }
 #gif1{
@@ -18,8 +19,118 @@
 }
 #div1{
     background-color: black;
-    margin: -10px;
+    margin: -8px;
 }
 body{
     background-color: red;
+} 
+
+@media screen and (max-width: 360px){
+    #div1{
+        width: 100%;
+        background-color: black;
+        margin-top: -8px;
+        margin-left: -8px;
+        width: 360px;
+    }
+    #fty{
+        border: 1px solid brown;
+        border-radius: 25px;
+        background-color: brown;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        margin: 0%;
+        margin-left: 150px;
+    }
+    #gif1{
+        background-color: black;
+        width: 360px
+    }
+    body{
+        display: inline-block;
+        
+        height: 100%;
+        background-color: red;
+        
+    }
+    #p{
+        background-color: black;
+        color: white;
+        /* margin-top: -10px; */
+        font-size: large;
+        width: 360px;
+}
+}
+@media screen and (max-width: 480px){
+    #div1{
+        width: 100%;
+        background-color: black;
+        margin-top: -8px;
+        margin-left: -8px;
+        width: 480px;
+    }
+    #fty{
+        border: 1px solid brown;
+        border-radius: 25px;
+        background-color: brown;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        margin: 0%;
+        margin-left: 200px;
+    }
+    #gif1{
+        background-color: black;
+        width: 480px
+    }
+    body{
+        display: inline-block;
+        
+        height: 100%;
+        background-color: red;
+        
+    }
+    #p{
+        background-color: black;
+        color: white;
+        /* margin-top: -10px; */
+        font-size: large;
+        width: 480px; }
+}
+@media screen and (max-width: 540px){
+    #div1{
+        width: 100%;
+        background-color: black;
+        margin-top: -8px;
+        margin-left: -8px;
+        width: 540px;
+    }
+    #fty{
+        border: 1px solid brown;
+        border-radius: 25px;
+        background-color: brown;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        margin: 0%;
+        margin-left: 200px;
+    }
+    #gif1{
+        background-color: black;
+        width: 540px
+    }
+    body{
+        display: inline-block;
+        
+        height: 100%;
+        background-color: red;
+        
+    }
+    #p{
+        background-color: black;
+        color: white;
+        /* margin-top: -10px; */
+        font-size: large;
+        width: 540px; }
 }
